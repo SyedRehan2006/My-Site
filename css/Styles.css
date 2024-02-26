@@ -2,7 +2,9 @@ body {
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather', serif;
+  background-color: #E3F6FF;
 }
+
 
 p {
   font-family: 'Original Surfer', cursive;
@@ -12,44 +14,51 @@ p {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 80px;
   font-weight: normal;
   line-height: 1;
   color: #28b5b5;
 }
-.name{
+
+.name {
   font-family: 'Dancing Script', cursive;
-  color: #d8ac9c ;
+  color: #FED049;
   /* font-family: 'Bangers', cursive; */
 }
+
 h2 {
-font-family: 'Original Surfer', cursive;
-    font-size: 40px;
-    color: #29bb89;
+  font-family: 'Original Surfer', cursive;
+  font-size: 40px;
+  color: #29bb89;
 }
-.hi{
+
+.hi {
   color: #28b5b5;
 }
 
 h3 {
   font-family: 'Original Surfer', cursive;
   font-size: 35px;
-    color: #29bb89;
-    line-height: 1;
-    padding: 20px;
+  color: #29bb89;
+  line-height: 1;
+  padding: 20px;
 }
-h4{
+
+h4 {
   color: #28b5b5;
   line-height: 1;
 }
-.touch{
+
+.touch {
   font-size: 30px;
 }
-.touch2{
+
+.touch2 {
   font-size: 30px;
 }
+
 img {
   position: relative;
 }
@@ -71,23 +80,24 @@ img {
 }
 
 .top-container {
-  height: 650px;
-  background-color: #b0efeb;
+  height: 525.5px;
+  background-color: #000000;
   position: relative;
-  padding-top: 100px;
+  padding-top: 25px;
   padding-bottom: 50px;
 }
 
 .middle-container {
-  padding-top: 60px;
+  padding-top: 3%;
   margin: 0px 0;
-  background-color: #c7ffd8;
+  /* background-color: #E3F6FF; */
 }
 
 .mountain {
-  top: 0.5px;
+  top: 23.5px;
   bottom: 30px;
   width: 750px;
+  right: 30px;
 }
 
 .bottom-cloud {
@@ -96,17 +106,20 @@ img {
   top: 300px;
   width: 250px;
 }
-.bottom-container{
+
+.bottom-container {
   padding: 20px;
   background-color: #b0efeb;
 }
+
 .top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
   width: 250px;
 }
-hr{
+
+hr {
   opacity: 0.25;
   border-color: #7b113a;
   border-style: none;
@@ -115,9 +128,11 @@ hr{
   width: 4%;
   padding-top: 10px;
 }
-.contact-me{
+
+.contact-me {
   padding: 30px;
 }
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -144,6 +159,7 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 .btn2 {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -161,12 +177,25 @@ hr{
   text-decoration: none;
 }
 
-.btn2:hover  {
-  background: #30ecb;
+.btn2:hover {
+  background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+video {
+  width: 100vw;
+  height: auto;
+  border-radius: 22px;
+}
+
+
+.my-skills {
+  position: relative;
+  top: 140px;
+  right: 111px;
 }
